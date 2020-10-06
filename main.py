@@ -6,7 +6,6 @@ actions = {                               # Dictionary Contains Functions Name
             1: addnewdept,
             2: attendance,
             3:prevattendance,
-           # 4:exit_page
         }
 def main():
     #os.system('cls')
@@ -14,7 +13,6 @@ def main():
     print("1.Add New Department")
     print("2.Take Attendance")
     print("3.See Previous Attendance")
-    print("4.Exit")
     choice = int(input("Enter Your Choice-:"))
     try:
         actions[choice]()
