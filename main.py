@@ -1,6 +1,6 @@
-from addnewdept import addnewdept
-from attendance import attendance
-from prevattendance import prevattendance
+from modules import addnewdept
+from modules import attendance
+from modules import prevattendance
 
 actions = {                               # Dictionary Contains Functions Name
             1: addnewdept,

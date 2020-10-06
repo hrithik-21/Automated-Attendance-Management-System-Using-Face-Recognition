@@ -1,4 +1,5 @@
-import addnewdept
+from .addnewdept import addnewdept
+
 import pandas as pd
 import datetime
 import os
@@ -111,4 +112,4 @@ def attendance():
         print("\nDo you want to add this department and branch in databse??(y or n)")
         ch=input()
         if ch=='y':
-            addnewdept.addnewdept()
+            addnewdept()
